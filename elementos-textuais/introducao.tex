@@ -1,0 +1,133 @@
+\chapter{Introdução}
+\label{cap:introducao}
+
+Devido à constante evolução das redes de comunicação e ao surgimento contínuo de
+novas tecnologias, as chamadas tecnologias móveis, tornaram-se cada vez mais
+presentes no cotidiano das pessoas, sendo utilizadas em pesquisas avançadas nos
+meios acadêmicos, corporativos, no entretenimento e no auxílio as atividades
+pessoais de cada usuário. Essas vertentes relacionadas a usabilidade
+das tecnologias móveis surgiram principalmente pela evolução das redes
+móveis, algo que está sendo viabilizado principalmente pela crescente difusão,
+popularização e diversificação destas tecnologias.
+
+Primordialmente um dispositivo móvel, designado popularmente em inglês pelo termo
+\textit{handheld}, é considerado um computador de bolso por possuir interfaces
+de entrada e saída de dados \textit{(input/output)}, uma tela \textit{(display)}
+e um teclado numérico sucessivamente. Entretanto os dispositivos móveis
+desenvolvidos atualmente como os \textit{palm-tops}, \textit{tablets} e
+\textit{smartphones}, designados popularmente em inglês pela sigla PDA\textit{(
+Personal Digital Assistent)}, diferenciam-se por proporcionar uma solução
+integrada entre interface de entrada e de saída, a chamada interface
+\textit{touchscreen}.
+
+Estes dispositivos móveis atualmente, possuem soluções para múltiplas finalidades,
+proporcionando ao usuário final comunicação através de serviços de voz e dados,
+desde serviços mais simples como envio de mensagens SMS\textit{(Short Message
+Service)} até a serviços mais complexos, que exigem
+conectividade com a \textit{internet} e demandam um intenso fluxo de dados para
+disponibilização de serviços conhecidos como \textit{streaming}.
+
+Considerando essas potencialidades de uso e a diversificação de soluções em uma
+escala de disponibilidade crescente, os \textit{smartphones} e \textit{tablets}
+assumiram papel central nos últimos anos. Pesquisas recentes informam que o
+número de usuários de internet móvel vem crescendo rapidamente, superando
+o número de usuários de internet por computadores pessoais 
+\cite{devitt2010meeker}. Estes números são muito expressivos, e devem ser levados 
+em consideração considerando a crescente demanda de acesso à informação pela internet 
+móvel a nível mundial. \cite{mobile2016}
+
+\section{Motivação}
+\label{sec:motivacao}
+
+Durante o processo de desenvolvimento de uma aplicação mobile o
+fator inicial a ser levado em consideração é o sistema operacional a ser adotado.
+Cada sistema operacional possui uma plataforma de desenvolvimento, ou seja, as
+linguagens e os frameworks de desenvolvimento são distintos em cada plataforma,
+essa diversificação torna-se um problema quando pensamos em portabilidade,
+ou seja, desenvolver uma única aplicação que seja portável (usável) em
+diferentes plataformas.
+
+Estes aparelhos evoluíram e se diversificaram muito nos últimos anos, o que possibilitou a criação de
+sistemas operacionais para eles. Alguns fabricantes, como a Apple e a Google, lançaram
+ferramentas de desenvolvimento de software, para permitir que outras empresas e desenvolvedores
+independentes possam desenvolver aplicativos para as respectivas plataformas.
+Nesse sentido, a motivação desta pesquisa se baseia numa investigação das limitações existentes
+acerca do desenvolvimento de aplicações mobile para as plataformas móveis. Pois, no contexto de alguns
+sistemas operacionais móveis, este desenvolvimento pode se tornar uma atividade complexa desde a fase
+inicial devido ao uso de ferramentas específicas e API’s (Interface de Programação de Aplicações) para
+escrever o código em diferentes plataformas. Muitas vezes se torna complexo para os programadores
+entenderem o que é preciso para desenvolver e distribuir uma determinada aplicação que implemente
+serviços Web para um dispositivo específico. Como cada plataforma tem diferentes processos e requisitos
+para a adesão destas aplicações, a documentação para partes diferentes do processo de desenvolvimento são
+muitas vezes dispersas e difíceis de agrupar e sintetizar. Isto substancialmente caracteriza problemas
+consideráveis quanto à interoperabilidade e convergência entre essas plataformas de desenvolvimento. Para
+uma melhor compreensão deste estudo, este trabalho está dividido em duas contextualizações importantes: a
+caracterização do chamado ecossistema móvel e as principais diferenças e limitações que a diversidade de
+tecnologias impõe acerca do desenvolvimento de aplicações para dispositivos móveis.
+
+Pretende-se, ao longo da pesquisa, descrever as características principais de um ecossistema móvel, as
+relações existentes entre os sistemas operacionais móveis e o desenvolvimento de softwares para os
+mesmos, fazendo considerações tanto a respeito das aplicações nativas como das aplicações
+multiplataforma, que proporcionam maior interoperabilidade ao seu desenvolvimento. 
+Serão abordadas as principais características de \textit{frameworks} importantes que estão sendo
+utilizadas nessa área de pesquisa. Serão também expostas algumas necessidades específicas que
+podem contribuir para uma melhor convergência de soluções em \textit{softwares mobile}, especialmente no que diz
+respeito ao desenvolvimento multiplataforma, traçando parâmetros e requisitos segundo as recomendações
+da W3C (World Wide Web Consortium).
+
+Para solucionar esse problema, nossos estudos foram realizados no
+chamado, desenvolvimento mobile multiplataforma, que utilizam frameworks que
+proporcionam uma experiência transparente ao usuário final utilizando-se de
+diferentes plataformas de desenvolvimento.
+
+\section{Objetivos}
+\label{sec:objetivos}
+
+\subsection{Objetivo Geral}
+\label{sec:objetivo-geral}
+
+Essa pesquisa propõe uma análise comparativa entre duas ferramentas de desenvolvimento móvel multiplataforma para aplicações híbridas existentes, o \textit{Adobe Phonegap} \textsuperscript{\texttrademark} e o
+\textit{Appcelerator Titanium} \textsuperscript{\texttrademark}. Teremos como
+objetivo, o desenvolvimento de uma aplicação móvel instável, de acordo com requisitos
+pré-estabelecidos para uma aplicação multiplataforma. Estes requisitos são:
+código aberto \textit{(open source)}, compatibilidade entre diferentes plataformas
+móveis, acesso aos recursos de \textit{hardware}, comunicação
+\textit{(server-side/back-end)}, interface de usuário \textit{(UI)} e segurança
+de dados.
+
+\subsection{Objetivos Específicos}
+\label{sec:objetivos-especificos}
+
+A metodologia aplicada a pesquisa foi subdividida em cinco capítulos. O
+desenvolvimento está organizado de acordo com os seguintes conceitos:
+\begin{itemize}
+  \item O primeiro capítulo apresenta os conceitos referentes
+    aos dispositivos móveis, os trabalhos relacionados e o objetivo da pesquisa.
+  \item O segundo capítulo apresenta a potencial diversificação no
+   desenvolvimento de tecnologias móveis e o conceito envolvendo a
+   denominação ecossistema móvel, a diversificação existente em cada subdivisão
+   e a sua influência no processo de engenharia e desenvolvimento de softwares
+   para dispositivos móveis.
+  \item No terceiro capítulo, será apresentado duas ferramentas para o
+   desenvolvimento móvel multiplataforma, o \textit{PhoneGap} e o
+   \textit{Titanium}. Apresentaremos as principais características de cada
+   ferramenta, sua estrutura arquitetural, experiência de usuário
+   \textit{(User Experience/UX)} e a interface de programação de aplicativos
+   \textit{(API)}.
+  \item No quarto capítulo, analisaremos critérios comparativos entre as
+   duas ferramentas de desenvolvimento móvel multiplataforma como, a
+   compatibilidade entre diferentes plataformas móveis, o acesso aos recursos de
+   hardware e ao desempenho de cada ferramenta. A análise referente ao
+   desempenho, será evidenciada de acordo com o desenvolvimento de uma
+   aplicação que acessará diferentes recursos de \textit{hardware} para coleta de
+   parâmetros referentes ao uso de memória, ao processamento de dados e ao
+   consumo de energia.
+  \item No quinto capítulo, será apresentada as considerações finais e as
+   pesquisas futuras referentes a escolha de uma das ferramentas apresentadas,
+   levando em consideração os parâmetros específicos de cada projeto de software.
+\end{itemize}
+
+É importante salientar que a pesquisa irá disponibilizar todo o código fonte
+desenvolvido para a criação da aplicação utilizada como parâmetro comparativo
+no quarto capítulo. O apêndice A contará com o código fonte utilizando o \textit{Phonegap} \textsuperscript{\texttrademark}, e o apêndice B com o código
+fonte usando o \textit{NativeScript} \textsuperscript{\texttrademark}.
